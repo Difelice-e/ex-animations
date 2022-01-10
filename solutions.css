@@ -81,3 +81,35 @@
     border-radius: 50px;
     transform: scale(1.5);
 }
+
+/* EX 10 */
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+
+/* EX 11 */
+@keyframes spin75 {
+    0% {
+        transform: rotate(0);
+    }
+    
+    85% {
+        transform: rotate(320deg);
+    }
+    
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: spin75 1s linear;
+}
+
+
