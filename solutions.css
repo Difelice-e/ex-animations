@@ -46,3 +46,38 @@
 .ex-5-square:active {
     transform: scale(0.5);
 }
+
+/* EX 6 */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* EX 7 */
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(0.5) sepia(0.5);
+}
+
+/* EX 8  */
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(0.5) sepia(0.5);
+    border-radius: 50px;
+}
+
+/* EX 9 */
+.ex-9-img {
+    transition: 3s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(0.5) sepia(0.5);
+    border-radius: 50px;
+    transform: scale(1.5);
+}
